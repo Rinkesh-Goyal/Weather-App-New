@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+    padding: 0px ;
+    font-family: 'Montserrat', sans-serif;
+    /* background-image: url('D:\\The_Odin_Project\\Weather-App-New\\Assets\\weather-app-bg.jpeg'); */
+}
+
+input,button{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: inherit;
+    outline: none;
+}
+
+button{
+    background-color: #ffe000;
+    margin-left: 15%;
+}
+
+button:hover,img:hover{
+    cursor: pointer;
+}
+/* Header */
+
+header{
+    /* border: 2px solid black; */
+    background-color: #666699;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    width:fit-content;
+    padding-left: 1%;
+    
+}
+.app-name{
+    
+    font-size: xx-large;
+    font-weight: bolder;
+    color:antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
+    width: 100%;
+    text-align: center;
+    padding-right: 9%   
+}
+
+.location{
+    background-color:#8ae8d4;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 1%;
+}
+
+.current-location{
+    padding-left: 1.5%;
+}
+
+.container-1,.container-2,.container-3,.container-4{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.container-3,.container-4{
+    background-color:#666699 ;
+    padding-top: 1.5%;
+}
+
+.container-2{
+    margin-top: 1.5%;
+}
+
+.container-4{
+    padding-bottom: 1%;
+}
+
+.weather-short-desc{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 2%;
+    margin-left: 4%;
+    margin-top: 5%;
+    height: fit-content;
+}
+
+.city,.weather-desc,.min-max,.temp{
+    text-align: center;
+    margin-bottom: 10%;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.city{
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.weather-desc{
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.temp{
+    font-weight: bold;
+    font-size: 5rem;
+}
+.temp-unit{
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.hourly-container{
+    /* display: flex; */
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-left: 10%;
+    width: 50%;
+    height: fit-content;
+    margin-top: 4.5%;
+    padding: 2%;
+    margin-right: 2%;
+   
+}
+.hourly-container-1,.hourly-container-2{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    border-radius: 5px;
+    padding-top:2%;
+    padding-bottom: 2%;
+}
+.hours-report{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 8.5%;
+}
+
+.hourly-container-2{
+    margin-top: 4%;
+}
+.hour,.hourly-temp,.weekday,.daily-min-temp,.daily-max-temp{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.hourly-temp-unit,.daily-temp-unit{
+    font-size: 1rem;
+}
+
+.daily-report{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 9%;
+}
+.weekly-container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 6%;
+    width:88%;
+
+}
+
+.weather-img-icon,.weekday,.daily-min-temp,.daily-max-temp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+
+.extra-report{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+    /* border: 1px solid; */
+    width: fit-content;
+}
+
+.extra-report-header,.extra-report-data{
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+}
+
+
+.other-container{
+    margin-top: 3%;
+}
+
+.sunrise{
+    margin-left: 15.2%;
+}
+
+.sunset{
+    margin-left: 16.2%;
+}
+
+.wind{
+    margin-left: 15.5%;
+}
+
+.humidity{
+    margin-left: 14.5%;
+}

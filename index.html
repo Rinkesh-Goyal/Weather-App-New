@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet"> 
+    <title>Weather-Forecast</title>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="icon">
+                <img src="images\main-icon.png" alt="Logo">
+            </div>
+            <div class="app-name">
+                Weather Forecast
+            </div>
+        </header>
+
+        <div class="location">
+            <div class="input-location">
+                <input type="text" class="city-input" placeholder="Enter a city">
+            </div>
+            <span class="search-btn">
+                <button id="search-location-btn" class="search-location-btn">Search</button>
+            </span>
+            <span class="current-location">
+                    <img title="Current location" class="current-location-btn" src="images\current-location.png" alt="current location">
+            </span>
+        </div>
+        <div class="container-1">
+            
+            <div class="weather-short-desc">
+                <div class="city">
+                    Raipur        
+                </div>
+                <div class="weather-desc">
+                    Clouds
+                </div>
+                <div class="temp">
+                    20<span class="temp-unit">°C</span>
+                    
+                </div>
+                <div class="min-max">
+                    <span class="max-temp">Max</span>
+                    <span class="min-temp">Min</span>
+                </div>
+            </div>
+
+            
+            <div class="hourly-container">
+                <div class="hourly-container-1"></div>
+                <div class="hourly-container-2"></div>
+            </div>
+
+        </div>
+
+        <div class="container-2">
+            <div class="weekly-container"></div>
+        </div>
+        <div class="other-container">
+
+        
+        <div class="container-3">
+                <span class="extra-report">
+                    <div>
+                        <div class="day sealevel extra-report-header">Sea level</div>
+                        <div class="daily-min-temp sealevel-data extra-report-data">1.004 km</div>                    
+                    </div>
+                </span>
+                <span class="extra-report">
+                    <div>
+                        <div class="day feels-like extra-report-header">Feels like</div>
+                        <div class="daily-min-temp feels-like-data extra-report-data">16°C</div>                    
+                    </div>
+                </span>
+                <span class="extra-report">
+                    <div>
+                        <div class="day pressure extra-report-header">Pressure</div>
+                        <div class="daily-min-temp pressure-data extra-report-data">1000 hPa</div>                    
+                    </div>
+                </span>
+                <span class="extra-report">
+                    <div>
+                        <div class="day visibility extra-report-header">Visibility</div>
+                        <div class="daily-min-temp visibility-data extra-report-data">160 km</div>                    
+                    </div>
+                </span>
+        </div>
+        
+        <div class="container-4">
+                <span class="extra-report sunrise">
+                    <div>
+                        <div class="day extra-report-header">Sunrise</div>
+                        <div class="daily-min-temp sunrise-data extra-report-data">16:24</div>                    
+                    </div>
+                </span>
+                <span class="extra-report sunset">
+                    <div>
+                        <div class="day extra-report-header">Sunset</div>
+                        <div class="daily-min-temp sunset-data extra-report-data">16:24</div>                    
+                    </div>
+                </span>
+                <span class="extra-report wind">
+                    <div>
+                        <div class="day extra-report-header">Wind</div>
+                        <div class="daily-min-temp wind-data extra-report-data">160 Km/hr</div>                    
+                    </div>
+                </span>
+                <span class="extra-report humidity">
+                    <div>
+                        <div class="day extra-report-header">Humidity</div>
+                        <div class="daily-min-temp humidity-data extra-report-data">100%</div>                    
+                    </div>
+                </span>
+        </div>
+    </div>
+    </main>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
